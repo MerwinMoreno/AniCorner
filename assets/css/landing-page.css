@@ -1,0 +1,70 @@
+.navbar-brand {
+  font-family: "Roboto Mono", monospace;
+  font-size: 45px;
+}
+.corner {
+  font-family: "Lobster", cursive;
+  color: darkorange !important;
+}
+.navbar-nav {
+  margin-right: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  gap: 20px;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+
+.title,
+.episodes {
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.cover_photo {
+  height: 350px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+hr {
+  border: solid gainsboro 3px;
+}
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.episodes {
+  margin-top: 50px;
+}
+.description {
+  text-align: justify;
+}
+.btn {
+  margin-bottom: 10px;
+}
+
+footer {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-size: 45px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: grey;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    display: flex;
+    margin-bottom: 10px;
+  }
+}

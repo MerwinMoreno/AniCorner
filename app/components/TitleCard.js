@@ -9,7 +9,7 @@ export default function TitleCard({ item }) {
       <Link href={href} className="card-link">
         <div className="card-cover">
           <Image
-            src={item.cover}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}${item.cover}`}
             alt={`${item.title} cover`}
             fill
             sizes="(max-width: 600px) 90vw, (max-width: 1000px) 45vw, 30vw"

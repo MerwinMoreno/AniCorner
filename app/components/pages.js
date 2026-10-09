@@ -26,7 +26,7 @@ export function titlePage(type) {
     return (
       <article className="detail">
         <div className="detail-cover">
-          <Image src={item.cover} alt={`${item.title} cover`} fill sizes="250px" priority />
+          <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH}${item.cover}`} alt={`${item.title} cover`} fill sizes="250px" priority />
         </div>
         <div className="detail-body">
           <h1>{item.title}</h1>

@@ -9,7 +9,7 @@ const lobster = Lobster({ subsets: ["latin"], weight: "400", variable: "--font-l
 export const metadata = {
   title: { default: "AniCorner", template: "%s | AniCorner" },
   description: "Watch anime and read manga on AniCorner.",
-  icons: { icon: "/thumbnails/logo.png" },
+  icons: { icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumbnails/logo.png` },
 };
 
 export default function RootLayout({ children }) {
